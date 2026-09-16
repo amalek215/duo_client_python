@@ -1000,6 +1000,7 @@ class Admin(client.Client):
         params = {
             'username': username,
             'email': email,
+            'send_email': send_email,
         }
 
         if valid_secs is not None:
